@@ -1,0 +1,14 @@
+const prompt = require('prompt-sync')()
+
+const diastring =prompt('Quantos dias você viveu?')
+const dias= Number(diaString)
+
+const anos=(dias/365)
+
+const meses=(dias % 365)/30
+
+const diastring=(dias % 365)%30
+
+console.log(` Você viveu exatamente de anos foi de ${anos} anos.`)
+console.log(`Você viveu exatamente de meses que você viveu foi de ${meses} mês.`)
+console.log(`Seus dias vividos foram de dias vividos foi de ${diasRest} dias.`)

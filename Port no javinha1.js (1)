@@ -1,0 +1,15 @@
+const prompt = require('prompt-sync')()
+
+const ageanosstring = prompt('Me informe quanto anos você viveu?:')
+const ageanos = Number(ageAString)
+
+const ageMString = prompt('Me informe quantos anos você viveu?:')
+const agemeses = Number(ageMString)
+
+const ageDString = prompt('Me informe quantos dias você viveu?:')
+const agedias= Number(ageDString)
+
+const ageDias = (ageanos*365) + (agemeses*30) + (ageD)
+
+console.log(`Me informe quantidade de dias vividos:${agedias}`)
+
